@@ -4,6 +4,8 @@
 - Install AWS CLI
 - Install kubectl CLI
 - Install eksctl CLI
+- Install git
+- Install vs code
 
 ## Step-01: Install AWS CLI
 - Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
@@ -123,3 +125,11 @@ eksctl version
 
 ## References:
 - https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
+
+  ## Step-4: Install git
+  
+  https://git-scm.com/install/windows
+  
+  ## Step-5:Install vs code
+
+  https://code.visualstudio.com/download
