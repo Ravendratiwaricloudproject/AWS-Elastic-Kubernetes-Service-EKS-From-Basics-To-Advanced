@@ -6,8 +6,7 @@
 - Install eksctl CLI
 
 ## Step-01: Install AWS CLI
-- Reference-1: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-- Reference-2: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+- Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 ### Step-01-01: MAC - Install and configure AWS CLI
 - Download the binary and install via command line using below two commands. 
 ```
@@ -26,7 +25,7 @@ which aws
 ```
 - Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html
 
-### Step-01-02: Windows 10 - Install and configure AWS CLI
+### Step-01-02: Windows - Install and configure AWS CLI
 - The AWS CLI version 2 is supported on Windows XP or later.
 - The AWS CLI version 2 supports only 64-bit versions of Windows.
 - Download Binary: https://awscli.amazonaws.com/AWSCLIV2.msi
@@ -39,7 +38,7 @@ aws-cli/2.0.8 Python/3.7.5 Windows/10 botocore/2.0.0dev12
 
 ### Step-01-03: Configure AWS Command Line using Security Credentials
 - Go to AWS Management Console --> Services --> IAM
-- Select the IAM User: kalyan 
+- Select the IAM User: username
 - **Important Note:** Use only IAM user to generate **Security Credentials**. Never ever use Root User. (Highly not recommended)
 - Click on **Security credentials** tab
 - Click on **Create access key**
@@ -84,8 +83,8 @@ Output: Client Version: v1.16.8-eks-e16311
 ```
 
 
-### Step-02-02: Windows 10 - Install and configure kubectl
-- Install kubectl on Windows 10 
+### Step-02-02: Windows - Install and configure kubectl
+- Install kubectl on Windows
 ```
 mkdir kubectlbinary
 cd kubectlbinary

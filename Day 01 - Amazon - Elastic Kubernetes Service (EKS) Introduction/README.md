@@ -1,4 +1,4 @@
-                     ########  AWS - Elastic Kubernetes Service (EKS) Introduction  ########
+                     ########  Amazon - Elastic Kubernetes Service (EKS) Introduction  ########
 
 
 # What is Kubernetes?
